@@ -1,72 +1,81 @@
-# cuemaker
-auto memory cues for Rekordbox
+# 🎛️ CueMaker – Automated Cue Placement for Rekordbox
 
+**CueMaker** automates cue and color placement for Rekordbox tracks with two drops.  
+This is a work-in-progress project built with zero coding experience – expect bugs and weirdness.  
+📺 *[Watch the tutorial video](#)* (link placeholder)
 
-CueMaker Setup & Usage Guide
-Supported Track Type:
-CueMaker is designed for tracks with two drops and at least 32 bars before each drop. This applies to over 90% of songs, regardless of BPM.
+---
 
-Before You Start in Rekordbox
-Switch to Export Mode.
+## ⚠️ Track Requirements
 
-Set Beat Jump to 8 Bars (on the left side of the player).
+- Must have **2 drops**
+- Must have **at least 32 bars before each drop**
 
-Enable Quantise (the red “Q” at the bottom right).
+> This fits **90%+ of songs**, regardless of BPM.
 
-Ensure the BPM and Beat Grid are correct and aligned.
+---
 
-Step 1: Load Your Track
-Drag the song into the Rekordbox Export Player.
+## 🔧 Rekordbox Setup
 
-Step 2: Mark Cue Points (First-Time Setup Only)
-You’ll be creating 10 memory cues total, 5 before each drop.
+Before using CueMaker:
 
-First Drop:
+1. **Export Mode** – Make sure Rekordbox is in Export Mode  
+2. **Beat Jump = 8 Bars** – Set this on the left side of the player  
+3. **Quantise = ON** – The red `Q` at the bottom right  
+4. Ensure the **BPM and beat grid** are correct and aligned
 
-Go to the first drop.
+---
 
-Press C, then M to drop a memory cue.
+## 🎵 First-Time Setup (Per Track)
 
-Press the left arrow, then C, then M – repeat this four times.
+### 1. Load the Track
+Drag a song into the Rekordbox **Export Player**.
 
-You'll now have 5 memory cues: the drop and 4 cues before it.
+### 2. Set Memory Cues Manually (in Rekordbox)
 
-Second Drop:
-4. Go to the second drop.
-5. Repeat the same process as above using the left arrow, C, and M.
+#### First Drop
+- Go to the **first drop**
+- Press `C`, then `M` to drop a memory cue
+- Press the **left arrow**, then `C`, `M` – **repeat this 4 times**
 
-Step 3: Set Cue Locations in CueMaker
-Click Start in CueMaker.
+#### Second Drop
+- Go to the **second drop**
+- Press `C`, then `M`
+- Press the **left arrow**, then `C`, `M` – **repeat this 4 times**
 
-For each of the 10 cue markers (on the right in Rekordbox), press Spacebar one by one from top to bottom to save their positions.
+> ✅ You now have **10 memory cues** total (5 per drop)
 
-Step 4: Choose Cue Colours
-You can customise the colour of each cue (e.g., Purple > Blue > Green > Orange > Red, with Red as the drop).
+### 3. Register Cue Locations in CueMaker
+- Click **Start** in CueMaker
+- For each cue (top to bottom, right panel in Rekordbox), press **Spacebar** to register the location
+
+### 4. Set Cue Colours
+Customize colours (e.g., Purple > Blue > Green > Orange > Red)
 
 For each cue:
+1. **Right-click** the cue
+2. Hover over your desired **color**
+3. Press **Spacebar** to save that color location
+4. **Left-click** to apply the color
 
-Right-click the cue marker.
+Repeat for all 10 cues
 
-Hover over your desired colour.
+---
 
-Press Spacebar to save that colour location.
+## ✅ Automate New Tracks
 
-Left-click to apply.
-
-Repeat this for all 10 cues (5 before each drop).
-
-Done! Your Template Is Ready.
-Marking a New Track
 For any new song:
 
-Ensure BPM and grid are correct.
+1. Verify **BPM and beat grid**
+2. Add **2 memory cues** (at first and second drop) with `C`, `M`
+3. Click **Start Automation** or press **F8** in CueMaker
 
-Drop memory cues at:
+> 🎉 CueMaker automatically adds all remaining cues and colors using your template
 
-The first drop (C, M)
+---
 
-The second drop (C, M)
+## 🛠️ Status
 
-Press Start Automation or F8 in CueMaker.
+This is an early-stage tool – feel free to fork, contribute, or create issues.  
+Made with passion by **Team JOSHIJ 2025**
 
-CueMaker will automatically add all remaining cues and colours based on your template.
