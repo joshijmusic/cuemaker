@@ -20,7 +20,7 @@ Before using CueMaker:
 
 1. **Export Mode** – Make sure Rekordbox is in Export Mode  
 2. **Beat Jump = 8 Bars** – Set this on the left side of the player  
-3. **Quantise = ON** – The red `Q` at the bottom right  
+3. **Quantise = ON** – The red/blue `Q` at the bottom right  
 4. Ensure the **BPM and beat grid** are correct and aligned
 
 ---
