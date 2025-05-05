@@ -2,7 +2,6 @@
 
 **CueMaker** automates cue and color placement for Rekordbox tracks with two drops.  
 This is a work-in-progress project built with zero coding experience – expect bugs and weirdness.  
-📺 *[Watch the tutorial video](#)* (link placeholder)
 
 ---
 
