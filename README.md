@@ -4,8 +4,8 @@
 This is a work-in-progress project built with zero coding experience – expect bugs and weirdness.  
 
 ---
-# Download
-[Latest Release](#https://github.com/joshijmusic/cuemaker/releases/tag/Cuemaker)
+# Downloads
+[Latest Release](https://github.com/joshijmusic/cuemaker/releases)
 ---
 # Tutorial Video
 [![Tutorial ](https://img.youtube.com/vi/hSQTYK0myXc/0.jpg)](https://www.youtube.com/watch?v=hSQTYK0myXc)
